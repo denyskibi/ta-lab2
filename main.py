@@ -13,7 +13,7 @@ def stop():
 def main():
     try:
         # Step #1: Load matrix from the file
-        loaded_matrix = numpy_utils.load_matrix_from_file(file_path="files/test_10_5.txt")
+        loaded_matrix = numpy_utils.load_matrix_from_file(file_path="files/test_100_50.txt")
 
         # Step #2: Count inversions for random users
         inversions_1_2 = favourite_films_inversions.count_inversions(matrix=loaded_matrix, user1=1, user2=2)
